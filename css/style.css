@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu:ital@1&display=swap');
+
+/* 
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+*/
+*{
+ padding: 0%;
+ margin: 0%; 
+ box-sizing: border-box;  
+}
+header {
+    width: 100%;
+    height: auto;
+}
+
+header nav ul li {    
+    list-style-type: none;
+
+}
+
+
+body {
+    background-color: #2D4356;
+    font-family: 'Raleway', sans-serif;
+    margin: 0%;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.navbar {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navbar li a {
+    padding: 1.25rem;
+    text-decoration: none;
+    color: white;
+}    
+
+.SectionIndexPrincipal  {
+    background-image: url(https://images.unsplash.com/photo-1562740672-22db5c969f04?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Mzc0NDd8MHwxfHNlYXJjaHw4MXx8dGllbmRhJTIwcm9wYXxlbnwwfHx8fDE2OTE0MzExMzJ8MA&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    width: 100%;
+    height: 43.75rem;
+}
+
+.SectionIndexPrincipal div h1 {
+    font-size: 6.25rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.SectionIndexPrincipal button {
+    background-color: #A76F6F;
+    border-radius: 1.25rem;
+    padding: .625rem 1.875rem;
+
+}
+
+.SectionIndexPrincipal button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 3.125rem;
+    padding: .625rem;
+}
+.tituloyboton {
+    width: 100%;
+    margin-left: 4.375rem;
+    padding-top: 6.25rem;
+}
+.SectionIndexSecundaria {
+    width: 100%;
+    height: auto;
+}
+
+.SectionIndexSecundaria div h2 {
+    font-size: 1.875rem;
+    color: white;
+}
+
+.CardInfo img {
+    width: 25rem;
+    height: 31.25rem;
+    background-color: #435B66;
+    padding: .625rem;
+    border-radius: 3.125rem 0rem; 
+    border: .3125rem solid rgba(0, 0, 0, 0.552);
+    
+}
+.ConteinerInfo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.ConteinerInfo {
+    width: 100%;
+    padding: 3.125rem;
+    
+
+}
+.CardInfo  h2 {
+    text-align: center; 
+    padding: .3125rem;
+    
+}
+
+
+
+.SectionIndexTerciaria {
+    background-color: #435B66;
+    font-size: 1.5625rem;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.ConteinInfoTerciaria {
+    width: 20rem;
+    height: 20rem;
+}
+
+.SectionIndexTerciaria div h3 {
+    font-size: 5rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.SectionIndexTerciaria div p {
+    font-size: 3.75rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.SectionIndexTerciaria button {
+    background-color: #A76F6F;
+    border-radius: 1.25rem;
+
+}
+
+.SectionIndexTerciaria button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.25rem;
+
+}
+.SectionIndexTerciaria {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows:repeat(3,33%);
+    justify-content: center;
+
+}
+.SectionIndexTerciaria div {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    padding: 3.125rem;
+}
+.SectionIndexTerciaria h3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-content: center;
+    padding-top: 3.125rem;
+}
+.SectionIndexTerciaria p {
+    grid-column: 2 /3;
+    grid-row: 2 /3;
+    padding-bottom: 3.125rem;
+    
+}
+.SectionIndexTerciaria button {
+    grid-column: 2 /3;
+    grid-row: 3 /4;
+    width: 6.25rem;
+    height: 3.125rem;
+    
+}
+.SectionIndexTerciaria div img {
+    width: 100%;
+}
+.wsp {
+    display: flex;
+    flex-direction: row-reverse;
+    position:fixed;
+    bottom: 1.25rem;
+    right: 1.25rem;
+   
+
+}
+
+
+/* inicio html tienda */
+
+.SectionNavTienda {
+    background-color: #435B66;
+}
+    
+.SectionPrincipalTienda h1 {
+color: white;
+}
+.SectionPrincipalTienda img{
+    width: 100%;
+    height: 75%;
+}
+.SectionPrincipalTienda div {
+   color: white; 
+} 
+.SectionPrincipalTienda button {
+    background-color: #A76F6F;
+    border-radius: 1.25rem;
+    
+    
+    
+}
+.SectionPrincipalTienda button a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.SectionPrincipalTienda div {
+    width: 20rem;
+    height: auto;
+    padding:.625rem;
+    border: .1875rem solid rgba(255, 255, 255, 0.995);
+    margin: .3125rem;
+    
+}
+.navBarTienda {
+    display: flex;
+    flex-direction: row;
+    padding:1.25rem;
+    justify-content: center;
+}
+.navBarTienda li a {
+ color: white;
+ text-decoration: none;
+ gap: 1.25rem;
+ padding:1.25rem;
+}
+.logoTienda {
+    display: flex;
+    justify-content: center;
+}
+
+
+.SectionPrincipalTienda {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+.SectionPrincipalTienda  {
+    gap: 1.25rem;
+}
+.camperaBomber {
+    grid-column: 2 /3;
+    grid-row: 2 /3;
+    justify-self: left;
+}
+.buzoBlanco {
+    grid-column: 1 /2;
+    grid-row: 2 /3;
+    justify-self: right;
+    
+    
+}
+.buzoNegro {
+    grid-column: 2 /3;
+    grid-row: 3 /4;
+    justify-self: left;
+}
+.remeraBlanca {
+    grid-column: 1 /2;
+    grid-row: 3 /4;
+    justify-self: right;
+}
+.tituloTienda {
+    grid-column: 1 /3;
+    grid-row: 1 /2;
+    justify-self: center;
+    padding: 1.25rem;
+    font-size: 1.875rem;
+    
+}
+
+/* inicio html unite */
+
+.SectionUnitePrincipal div {
+    color: white;
+}
+.SectionUniteSecundaria {
+    color: white;
+}
+.SectionUniteSecundaria button {
+    background-color: #A76F6F;
+}
+.SectionUniteSecundaria a {
+    color: white;
+    text-decoration: none;
+}
+.logoUnite {
+    display: flex; 
+   justify-content: center;
+}
+.navBarUnite {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+.navBarUnite li a {
+    padding: 1.25rem;
+    text-decoration: none;
+    color: white;
+}
+.itemPromos {
+    padding: .625rem;
+    font-size: 1.875rem;
+    padding-left: .9375rem;
+}
+.SectionUnitePrincipal div h1 {
+    font-size: 3.75rem;
+    padding-left: .9375rem;
+}
+.formUnite {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1,60%;
+    grid-template-rows: auto;
+    justify-content: center;
+    padding: 1.25rem;
+    grid-template-areas:
+     
+    "item1"
+    "item2"
+    "item3";
+    font-size: 40px;
+}
+.item1{
+    grid-area: item1;
+}
+.item2{
+    grid-area: item2;
+}
+.item3{
+    grid-area: item3;
+}
+.buttonUnite {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem;    
+}
+.buttonUnite a{
+    font-size: 30px;
+}
+
+
+.footer {
+color: white;
+display: grid;
+width: 100%;
+grid-template-columns: 1,auto;
+grid-template-rows: 2,auto;
+grid-template-areas: 
+"item1Footer" 
+"item2Footer";
+}
+.item1Footer{
+    grid-area: item1Footer;
+    text-align: center;
+    padding: 1.25rem;
+    
+}
+.item2Footer{
+    grid-area: item2Footer;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+
+
+
+/* empieza html showroom */ 
+
+
+ main {
+    color:white;
+    background-color: #2D4356;
+ }
+
+ header {
+    background-color: #2D4356;
+ }
+ .SectionShowroomPrincipal div {
+    width: 25rem;
+    height: 37rem;
+    padding:.75rem;
+    border: .1875rem solid rgba(255, 255, 255, 0.995);
+    margin: .3125rem;
+ }
+ .SectionShowroomPrincipal img {
+    width: 100%;
+ }
+ .SectionShowroomPrincipal div a {
+    color: #A76F6F ;
+    padding: 1.25rem;
+    margin-top: 1.25rem;   
+    display: flex;
+    justify-content: center;
+ }
+ .SectionShowroomPrincipal {
+    gap: .3125rem;
+ }
+
+
+ .logoShowroom {
+   display: flex; 
+   justify-content: center;
+ }
+ .navBarShowroom {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+ }
+ .navBarShowroom li a{
+    padding: 1.25rem;
+    text-decoration: none;
+    color: white;
+ }
+ .tituloShowroom {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem;
+ }
+ .SectionShowroomPrincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+
+ /* empieza html nosotros */
+
+ .SectionPrincipalNosotros div img {
+    width:15.625rem;
+    height:15.625rem;
+    border-radius: 100%;
+    background-color: black;
+}
+.logoNosotros {
+    display: flex; 
+    justify-content: center;
+}
+.navBarNosotros {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navBarNosotros li a {
+    padding: 1.25rem;
+    text-decoration: none;
+    color: white; 
+}
+.SectionPrincipalNosotros {
+    display: grid;
+    width: 100%;
+    grid-template-columns:40% 60% ;
+    grid-template-areas:
+    "item1N item2N"
+    "item1N item3N";
+}
+
+.item1N {
+    grid-area: item1N;
+}
+.item2N{
+    grid-area: item2N;
+}
+.item3N {
+    grid-area: item3N;
+   
+}
+.item1N {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+    
+}
+.item2N {
+    padding: .9375rem;
+}
+.SectionPrincipalNosotros div h1 {
+    font-size: 2.5rem;
+    
+}
+@media (max-width: 1024px)
+/* comienza responsive index */
+{
+   .SectionIndexTerciaria {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1,100%);
+    grid-template-rows:auto;
+    justify-content: center;
+   }
+   .SectionIndexTerciaria h3 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    
+   }
+   .SectionIndexTerciaria div {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-items: center;
+    justify-self: center;
+   }
+   .SectionIndexTerciaria p{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-self: center;
+   }
+   .SectionIndexTerciaria button {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    justify-self: center;
+   }
+   .SectionIndexTerciaria p {
+    text-align: center;
+}
+
+
+
+}
+@media (max-width: 768px)
+{      
+    .ConteinerInfo{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .SectionIndexTerciaria p {
+        text-align: center;
+    }
+    .SectionIndexTerciaria p {
+        text-align: center;
+    }
+    
+}
+@media (max-width: 425px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .SectionIndexTerciaria button {
+        align-content: center;
+     }
+    
+    .CardInfo img {
+        width:18.75rem;
+        height: 250px;
+    }
+    .SectionIndexTerciaria p {
+        text-align: center;
+    }
+    /* comienza responsive tienda */
+    .SectionPrincipalTienda {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    
+}
+@media (max-width: 320px)
+{
+    .SectionIndexTerciaria button {
+       align-content: center;
+    }
+    .SectionIndexPrincipal div h1{
+        font-size: 2.5rem;
+
+    
+    }
+    .SectionIndexPrincipal button a {
+        font-size: 1.25rem;
+
+    }
+    .ConteinerInfo{
+        justify-content: center;
+       
+        
+    }
+    .SectionIndexPrincipal {
+        height: 18.75rem;
+    }
+    .CardInfo img {
+        width:18.75rem;
+        height: 15.625rem;
+   
+   }
+   /* comienza responsive tienda */
+   .SectionPrincipalTienda div {
+    width:18.75rem;
+    height: 15.625rem;
+    padding: .1875rem;
+   }
+   .tituloTienda {
+    font-size: 1.25rem;
+   } 
+
+
+ }
+
+
+    
+        
+    
+
+
+
+    
+
+    
+
+   
+
+
+
+
+
+
+
+
+
+    
+   
+    
+
+
+
+    
+        
+    
+
+    
+        
