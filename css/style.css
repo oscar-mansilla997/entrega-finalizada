@@ -9,11 +9,16 @@ font-family: 'Ubuntu', sans-serif;
  padding: 0%;
  margin: 0%; 
  box-sizing: border-box;  
-}
+} 
+
 header {
     width: 100%;
     height: auto;
-}
+    
+  }
+  .sectionNavIndex {
+    background-color: #162938;
+  }
 
 header nav ul li {    
     list-style-type: none;
@@ -22,9 +27,10 @@ header nav ul li {
 
 
 body {
-    background-color: #2D4356;
+    background-color: #162938;
     font-family: 'Raleway', sans-serif;
     margin: 0%;
+    
 }
 
 
@@ -32,6 +38,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 
 
 
@@ -84,6 +91,7 @@ body {
 .SectionIndexSecundaria {
     width: 100%;
     height: auto;
+    background-color:#12191c;
 }
 
 .SectionIndexSecundaria div h2 {
@@ -94,7 +102,7 @@ body {
 .CardInfo img {
     width: 25rem;
     height: 31.25rem;
-    background-color: #435B66;
+    background-color: #243238;
     padding: .625rem;
     border-radius: 3.125rem 0rem; 
     border: .3125rem solid rgba(0, 0, 0, 0.552);
@@ -121,7 +129,7 @@ body {
 
 
 .SectionIndexTerciaria {
-    background-color: #435B66;
+    background-color: #213741;
     font-size: 1.5625rem;
     font-family: 'Raleway', sans-serif;
     
@@ -294,8 +302,19 @@ color: white;
     justify-self: center;
     padding: 1.25rem;
     font-size: 1.875rem;
+   
+}
+.buttonFooterTienda {
+    background-color: #A76F6F;
+    
     
 }
+.buttonFooterTienda a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.875rem;
+}
+
 
 /* inicio html unite */
 
@@ -521,6 +540,7 @@ grid-template-areas:
     grid-template-columns: repeat(1,100%);
     grid-template-rows:auto;
     justify-content: center;
+    
    }
    .SectionIndexTerciaria h3 {
     grid-column: 1/2;
@@ -533,6 +553,7 @@ grid-template-areas:
     grid-row: 2/3;
     align-items: center;
     justify-self: center;
+    
    }
    .SectionIndexTerciaria p{
     grid-column: 1/2;
@@ -546,7 +567,12 @@ grid-template-areas:
    }
    .SectionIndexTerciaria p {
     text-align: center;
+
 }
+.ConteinerInfo {
+    gap: 1.5625rem;
+}
+
 
 
 
@@ -567,9 +593,14 @@ grid-template-areas:
     
 }
 @media (max-width: 425px) {
-    .navbar {
+    .navegador {
         display: flex;
         flex-direction: column;
+        
+        
+    }
+    .navbar li a {
+        padding: .3125rem;
         
     }
     .SectionIndexTerciaria button {
@@ -583,18 +614,36 @@ grid-template-areas:
     .SectionIndexTerciaria p {
         text-align: center;
     }
+   
+
+
+    }
     /* comienza responsive tienda */
-    .SectionPrincipalTienda {
+    @media (max-width: 425px)
+    {
+    .navegadorTienda {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        
+    }
+     .SectionPrincipalTienda {
+     display: flex;
+     flex-direction: column;
+     align-items: center;}
+ 
     }
     
     
     
-}
+    
+
 @media (max-width: 320px)
-{
+
+{.SectionPrincipalTienda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
     .SectionIndexTerciaria button {
        align-content: center;
     }
@@ -620,18 +669,40 @@ grid-template-areas:
         height: 15.625rem;
    
    }
-   /* comienza responsive tienda */
-   .SectionPrincipalTienda div {
-    width:18.75rem;
-    height: 15.625rem;
-    padding: .1875rem;
+   .SectionIndexTerciaria p {
+    font-size: .625rem;
    }
-   .tituloTienda {
+   .SectionIndexTerciaria button  {
+    width: 2.5rem;
+    height: auto;
+    
+   }
+
+}
+/* inicio clientes bootstrap */
+
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+}
+.container-fluid button {
+    background-color: #A76F6F;
+    border-radius: .75rem;
+    
+}
+.container-fluid button a {
+    color: white;
+    text-decoration: none;
     font-size: 1.25rem;
-   } 
+    
+}
+.container-fluid img {
+    padding:.625rem;
+}
+.tituloClientes{
+    text-align: center;
+}
 
-
- }
 
 
     
