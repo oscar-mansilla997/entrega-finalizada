@@ -5,43 +5,35 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Ubuntu', sans-serif;
 
 */
-*{
- padding: 0%;
- margin: 0%; 
- box-sizing: border-box;  
-} 
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
 
 header {
     width: 100%;
     height: auto;
-    
-  }
-  .sectionNavIndex {
-    background-color: #162938;
-  }
-
-header nav ul li {    
-    list-style-type: none;
-
 }
 
+.sectionnavindex {
+    background-color: #162938;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
 
 body {
     background-color: #162938;
     font-family: 'Raleway', sans-serif;
     margin: 0%;
-    
 }
-
 
 .logo {
     display: flex;
     justify-content: center;
 }
-
-
-
-
 
 .navbar {
     padding: 1.25rem;
@@ -49,13 +41,14 @@ body {
     flex-direction: row;
     justify-content: center;
 }
+
 .navbar li a {
     padding: 1.25rem;
     text-decoration: none;
     color: white;
-}    
+}
 
-.SectionIndexPrincipal  {
+.sectionindexprimaria {
     background-image: url(https://images.unsplash.com/photo-1562740672-22db5c969f04?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Mzc0NDd8MHwxfHNlYXJjaHw4MXx8dGllbmRhJTIwcm9wYXxlbnwwfHx8fDE2OTE0MzExMzJ8MA&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450);
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,676 +57,602 @@ body {
     height: 43.75rem;
 }
 
-.SectionIndexPrincipal div h1 {
+.sectionindexprimaria div h1 {
     font-size: 6.25rem;
     font-family: 'Raleway', sans-serif;
     color: white;
 }
 
-.SectionIndexPrincipal button {
+.sectionindexprimaria button {
     background-color: #A76F6F;
     border-radius: 1.25rem;
     padding: .625rem 1.875rem;
-
 }
 
-.SectionIndexPrincipal button a {
+.sectionindexprimaria button a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 3.125rem;
     padding: .625rem;
 }
+
 .tituloyboton {
-    width: 100%;
+    width: 50%;
     margin-left: 4.375rem;
     padding-top: 6.25rem;
 }
-.SectionIndexSecundaria {
+
+.sectionindexsecundaria {
     width: 100%;
     height: auto;
-    background-color:#12191c;
+    background-color: #12191c;
 }
 
-.SectionIndexSecundaria div h2 {
+.sectionindexsecundaria div h2 {
     font-size: 1.875rem;
     color: white;
 }
 
-.CardInfo img {
-    width: 25rem;
+.cardinfo img {
+    width: 18.75rem;
     height: 31.25rem;
     background-color: #243238;
     padding: .625rem;
-    border-radius: 3.125rem 0rem; 
+    border-radius: 3.125rem 0rem;
     border: .3125rem solid rgba(0, 0, 0, 0.552);
-    
 }
-.ConteinerInfo {
+
+.conteinerinfo {
     width: 100%;
     height: auto;
+}
+
+.cardinfo {
+    padding: 1.25rem;
     display: flex;
     justify-content: center;
-}
-.ConteinerInfo {
-    width: 100%;
-    padding: 3.125rem;
-    
-
-}
-.CardInfo  h2 {
-    text-align: center; 
-    padding: .3125rem;
-    
+    gap: 5rem;
 }
 
+.cardinfo h2 {
+    text-align: center;
+}
 
-
-.SectionIndexTerciaria {
+.sectionindexterciaria {
     background-color: #213741;
-    font-size: 1.5625rem;
     font-family: 'Raleway', sans-serif;
-    
-}
-.ConteinInfoTerciaria {
-    width: 20rem;
-    height: 20rem;
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, auto);
+    justify-content: center;
 }
 
-.SectionIndexTerciaria div h3 {
-    font-size: 5rem;
-    font-family: 'Raleway', sans-serif;
-    color: white;
-}
-.SectionIndexTerciaria div p {
-    font-size: 3.75rem;
-    font-family: 'Raleway', sans-serif;
-    color: white;
-}
-
-.SectionIndexTerciaria button {
+.sectionindexterciaria button {
     background-color: #A76F6F;
     border-radius: 1.25rem;
-
+    grid-column: 2 /3;
+    grid-row: 3 /4;
+    width: 6.25rem;
+    height: 3.125rem;
+    justify-self: center;
 }
 
-.SectionIndexTerciaria button a {
+.sectionindexterciaria button a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 1.25rem;
-
 }
-.SectionIndexTerciaria {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(2,50%);
-    grid-template-rows:repeat(3,33%);
-    justify-content: center;
 
-}
-.SectionIndexTerciaria div {
+.sectionindexterciaria div {
     grid-column: 1/2;
     grid-row: 1/3;
     padding: 3.125rem;
+    width: 90%;
 }
-.SectionIndexTerciaria h3 {
+
+.sectionindexterciaria h3 {
+    font-size: 5rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
     grid-column: 2/3;
     grid-row: 1/2;
     justify-content: center;
     padding-top: 3.125rem;
 }
-.SectionIndexTerciaria p {
+
+.sectionindexterciaria p {
     grid-column: 2 /3;
     grid-row: 2 /3;
-    padding-bottom: 3.125rem;
-    
+    font-size: 1.25rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
 }
-.SectionIndexTerciaria button {
-    grid-column: 2 /3;
-    grid-row: 3 /4;
-    width: 6.25rem;
-    height: 3.125rem;
-    
-}
-.SectionIndexTerciaria div img {
+
+.footer {
     width: 100%;
+    height: auto;
 }
+
 .wsp {
     display: flex;
     flex-direction: row-reverse;
-    position:fixed;
+    position: fixed;
     bottom: 1.25rem;
     right: 1.25rem;
-   
-
 }
-
 
 /* inicio html tienda */
-
-.SectionNavTienda {
+.sectionprincipaltienda {
     background-color: #435B66;
 }
-    
-.SectionPrincipalTienda h1 {
-color: white;
+
+.sectionprincipaltienda h1 {
+    color: white;
 }
-.SectionPrincipalTienda img{
+
+.sectionprincipaltienda img {
     width: 100%;
     height: 75%;
 }
-.SectionPrincipalTienda div {
-   color: white; 
-} 
-.SectionPrincipalTienda button {
+
+.sectionprincipaltienda button {
     background-color: #A76F6F;
     border-radius: 1.25rem;
-    
-    
-    
 }
-.SectionPrincipalTienda button a {
+
+.sectionprincipaltienda button a {
     color: white;
     text-decoration: none;
-    display: flex;
     justify-content: center;
-    
-    
 }
-.SectionPrincipalTienda div {
-    width: 20rem;
+
+.sectionprincipaltienda div {
+    color: white;
+    width: 50%;
     height: auto;
-    padding:.625rem;
+    padding: .625rem;
     border: .1875rem solid rgba(255, 255, 255, 0.995);
     margin: .3125rem;
-    
 }
-.navBarTienda {
+
+.navbartienda {
     display: flex;
     flex-direction: row;
-    padding:1.25rem;
+    padding: 1.25rem;
     justify-content: center;
 }
-.navBarTienda li a {
- color: white;
- text-decoration: none;
- gap: 1.25rem;
- padding:1.25rem;
+
+.navbartienda li a {
+    color: white;
+    text-decoration: none;
+    gap: 1.25rem;
+    padding: 1.25rem;
 }
+
 .logoTienda {
     display: flex;
     justify-content: center;
 }
 
-
-.SectionPrincipalTienda {
+.cardstienda {
     display: grid;
     width: 100%;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    height: auto;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
 }
-.SectionPrincipalTienda  {
-    gap: 1.25rem;
-}
-.camperaBomber {
-    grid-column: 2 /3;
-    grid-row: 2 /3;
-    justify-self: left;
-}
-.buzoBlanco {
-    grid-column: 1 /2;
-    grid-row: 2 /3;
-    justify-self: right;
-    
-    
-}
-.buzoNegro {
-    grid-column: 2 /3;
-    grid-row: 3 /4;
-    justify-self: left;
-}
-.remeraBlanca {
-    grid-column: 1 /2;
-    grid-row: 3 /4;
-    justify-self: right;
-}
-.tituloTienda {
+
+.titulotienda {
     grid-column: 1 /3;
     grid-row: 1 /2;
-    justify-self: center;
-    padding: 1.25rem;
+    text-align: center;
+    padding: .625rem;
     font-size: 1.875rem;
-   
 }
-.buttonFooterTienda {
+
+.camperabomber {
+    grid-column: 1 /2;
+    grid-row: 2 /3;
+    padding: .625rem;
+}
+
+.buzoblanco {
+    grid-column: 1 /2;
+    grid-row: 3 /4;
+    padding: .625rem;
+}
+
+.buzonegro {
+
+    grid-column: 2 /3;
+    grid-row: 2 /3;
+    padding: .625rem;
+}
+
+.remerablanca {
+    grid-column: 2 /3;
+    grid-row: 3 /4;
+    padding: .625rem;
+}
+
+.buttonfootertienda {
     background-color: #A76F6F;
-    
-    
 }
+
 .buttonFooterTienda a {
     text-decoration: none;
     color: white;
     font-size: 1.875rem;
 }
 
-
 /* inicio html unite */
+.Sectionuniteprincipal div {
+    color: white;
+}
 
-.SectionUnitePrincipal div {
+.Sectionunitesecundaria {
     color: white;
 }
-.SectionUniteSecundaria {
-    color: white;
-}
-.SectionUniteSecundaria button {
+
+.Sectionunitesecundaria button {
     background-color: #A76F6F;
 }
-.SectionUniteSecundaria a {
+
+.Sectionunitesecundaria a {
     color: white;
     text-decoration: none;
 }
-.logoUnite {
-    display: flex; 
-   justify-content: center;
+
+.logounite {
+    display: flex;
+    justify-content: center;
 }
-.navBarUnite {
+
+.navbarunite {
     padding: 1.25rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;  
+    justify-content: center;
 }
-.navBarUnite li a {
+
+.navbarunite li a {
     padding: 1.25rem;
     text-decoration: none;
     color: white;
 }
-.itemPromos {
+
+.itempromos {
     padding: .625rem;
     font-size: 1.875rem;
     padding-left: .9375rem;
 }
-.SectionUnitePrincipal div h1 {
+
+.Sectionuniteprincipal div h1 {
     font-size: 3.75rem;
     padding-left: .9375rem;
 }
-.formUnite {
+
+.formunite {
     display: grid;
     width: 100%;
-    grid-template-columns: 1,60%;
+    grid-template-columns: 1, 60%;
     grid-template-rows: auto;
     justify-content: center;
     padding: 1.25rem;
     grid-template-areas:
-     
-    "item1"
-    "item2"
-    "item3";
+
+        "item1"
+        "item2"
+        "item3";
     font-size: 40px;
 }
-.item1{
+
+.item1 {
     grid-area: item1;
 }
-.item2{
+
+.item2 {
     grid-area: item2;
 }
-.item3{
+
+.item3 {
     grid-area: item3;
 }
-.buttonUnite {
+
+.buttonunite {
     display: flex;
     justify-content: center;
-    padding: 1.25rem;    
+    padding: 1.25rem;
 }
-.buttonUnite a{
+
+.buttonunite a {
     font-size: 30px;
 }
 
-
 .footer {
-color: white;
-display: grid;
-width: 100%;
-grid-template-columns: 1,auto;
-grid-template-rows: 2,auto;
-grid-template-areas: 
-"item1Footer" 
-"item2Footer";
+    color: white;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1, auto;
+    grid-template-rows: 2, auto;
+    grid-template-areas:
+        "item1footer"
+        "item2footer";
 }
-.item1Footer{
-    grid-area: item1Footer;
-    text-align: center;
-    padding: 1.25rem;
-    
-}
-.item2Footer{
-    grid-area: item2Footer;
+
+.item1footer {
+    grid-area: item1footer;
     text-align: center;
     padding: 1.25rem;
 }
 
+.item2footer {
+    grid-area: item2footer;
+    text-align: center;
+    padding: 1.25rem;
+}
 
-
-
-/* empieza html showroom */ 
-
-
- main {
-    color:white;
+/* empieza html showroom */
+main {
+    color: white;
     background-color: #2D4356;
- }
+}
 
- header {
+header {
     background-color: #2D4356;
- }
- .SectionShowroomPrincipal div {
+}
+
+.sectionshowroomprincipal div {
     width: 25rem;
     height: 37rem;
-    padding:.75rem;
+    padding: .75rem;
     border: .1875rem solid rgba(255, 255, 255, 0.995);
     margin: .3125rem;
- }
- .SectionShowroomPrincipal img {
+}
+
+.sectionshowroomprincipal img {
     width: 100%;
- }
- .SectionShowroomPrincipal div a {
-    color: #A76F6F ;
+}
+
+.sectionshowroomprincipal div a {
+    color: #A76F6F;
     padding: 1.25rem;
-    margin-top: 1.25rem;   
+    margin-top: 1.25rem;
     display: flex;
     justify-content: center;
- }
- .SectionShowroomPrincipal {
+}
+
+.sectionshowroomprincipal {
     gap: .3125rem;
- }
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+.logoshowroom {
+    display: flex;
+    justify-content: center;
+}
 
- .logoShowroom {
-   display: flex; 
-   justify-content: center;
- }
- .navBarShowroom {
+.navbarshowroom {
     padding: 1.25rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
-    
- }
- .navBarShowroom li a{
+}
+
+.navbarshowroom li a {
     padding: 1.25rem;
     text-decoration: none;
     color: white;
- }
- .tituloShowroom {
+}
+
+.tituloshowroom {
     display: flex;
     justify-content: center;
     padding: 1.25rem;
- }
- .SectionShowroomPrincipal {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
- }
+}
 
-
- /* empieza html nosotros */
-
- .SectionPrincipalNosotros div img {
-    width:15.625rem;
-    height:15.625rem;
+/* empieza html nosotros */
+.sectionprincipalnosotros div img {
+    width: 15.625rem;
+    height: 15.625rem;
     border-radius: 100%;
     background-color: black;
 }
-.logoNosotros {
-    display: flex; 
+
+.logonosotros {
+    display: flex;
     justify-content: center;
 }
-.navBarNosotros {
+
+.navbarnosotros {
     padding: 1.25rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.navBarNosotros li a {
+
+.navbarnosotros li a {
     padding: 1.25rem;
     text-decoration: none;
-    color: white; 
-}
-.SectionPrincipalNosotros {
-    display: grid;
-    width: 100%;
-    grid-template-columns:40% 60% ;
-    grid-template-areas:
-    "item1N item2N"
-    "item1N item3N";
+    color: white;
 }
 
-.item1N {
-    grid-area: item1N;
+.sectionprincipalnosotros {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 40% 60%;
+    grid-template-areas:
+        "item1n item2n"
+        "item1n item3n";
 }
-.item2N{
-    grid-area: item2N;
+
+.item1n {
+    grid-area: item1n;
 }
-.item3N {
-    grid-area: item3N;
-   
+
+.item2n {
+    grid-area: item2n;
 }
-.item1N {
+
+.item3n {
+    grid-area: item3n;
+}
+
+.item1n {
     display: flex;
     justify-content: center;
     padding-top: 2.5rem;
-    padding-left: 2.5rem;
-    
+    padding-bottom: 2.5rem;
+    padding-left: 3.75rem;
 }
-.item2N {
+
+.item2n {
     padding: .9375rem;
 }
-.SectionPrincipalNosotros div h1 {
+
+.item3n {
+    font-size: .75rem;
+}
+
+.sectionprincipalnosotros div h1 {
     font-size: 2.5rem;
-    
-}
-@media (max-width: 1024px)
-/* comienza responsive index */
-{
-   .SectionIndexTerciaria {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(1,100%);
-    grid-template-rows:auto;
-    justify-content: center;
-    
-   }
-   .SectionIndexTerciaria h3 {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    text-align: center;
-    
-   }
-   .SectionIndexTerciaria div {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    align-items: center;
-    justify-self: center;
-    
-   }
-   .SectionIndexTerciaria p{
-    grid-column: 1/2;
-    grid-row: 3/4;
-    justify-self: center;
-   }
-   .SectionIndexTerciaria button {
-    grid-column: 1/2;
-    grid-row: 4/5;
-    justify-self: center;
-   }
-   .SectionIndexTerciaria p {
-    text-align: center;
-
-}
-.ConteinerInfo {
-    gap: 1.5625rem;
 }
 
-
-
-
+/* inicio responsive */
+@media (max-width: 1030px) {
+    .sectionindexterciaria div img {
+        width: 80%;
+        height: auto;
+    }
 }
-@media (max-width: 768px)
-{      
-    .ConteinerInfo{
+
+@media (max-width: 990px) {
+    .sectionindexterciaria div img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sectionindexterciaria p {
+        font-size: .9375rem;
+        padding: .9375rem;
+    }
+
+    /* responsive tienda */
+    .cardstienda {
+        display: flex;
         flex-direction: column;
         align-items: center;
-        
     }
-    .SectionIndexTerciaria p {
-        text-align: center;
+}
+
+@media (max-width: 690px) {
+    .navbar {
+        padding: 1.875rem 0rem;
     }
-    .SectionIndexTerciaria p {
-        text-align: center;
+
+    .navbar li a {
+        padding: .3125rem;
+    }
+
+    .cardinfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectionindexterciaria {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1.875rem;
+
+    }
+
+    .sectionindexterciaria div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sectionindexprimaria {
+        width: 100%;
+        height: 25rem;
+    }
+
+    .sectionindexprimaria div h1 {
+        font-size: 3.125rem;
+    }
+
+    .sectionindexterciaria button {
+        align-self: center;
+    }
+
+    .sectionindexterciaria h3 {
+        font-size: 6.25rem;
+    }
+
+    .navegadortienda {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+    .sectionindexterciaria div {
+        width: 100%;
     }
     
 }
-@media (max-width: 425px) {
+
+@media (max-width: 353px) {
     .navegador {
         display: flex;
         flex-direction: column;
-        
-        
-    }
-    .navbar li a {
-        padding: .3125rem;
-        
-    }
-    .SectionIndexTerciaria button {
-        align-content: center;
-     }
-    
-    .CardInfo img {
-        width:18.75rem;
-        height: 250px;
-    }
-    .SectionIndexTerciaria p {
-        text-align: center;
-    }
-   
-
-
-    }
-    /* comienza responsive tienda */
-    @media (max-width: 425px)
-    {
-    .navegadorTienda {
-        display: flex;
-        flex-direction: column;
-        
-    }
-     .SectionPrincipalTienda {
-     display: flex;
-     flex-direction: column;
-     align-items: center;}
- 
+        padding: 0%;
+        gap: 0%;
     }
     
-    
-    
-    
-
-@media (max-width: 320px)
-
-{.SectionPrincipalTienda {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-    .SectionIndexTerciaria button {
-       align-content: center;
-    }
-    .SectionIndexPrincipal div h1{
-        font-size: 2.5rem;
-
-    
-    }
-    .SectionIndexPrincipal button a {
-        font-size: 1.25rem;
-
-    }
-    .ConteinerInfo{
-        justify-content: center;
+    .sectionindexterciaria div {
+        padding: 10%;
        
         
     }
-    .SectionIndexPrincipal {
-        height: 18.75rem;
+
+    .sectionindexterciaria h3 {
+        font-size: 1.875rem;
     }
-    .CardInfo img {
-        width:18.75rem;
-        height: 15.625rem;
-   
-   }
-   .SectionIndexTerciaria p {
-    font-size: .625rem;
-   }
-   .SectionIndexTerciaria button  {
-    width: 2.5rem;
-    height: auto;
-    
-   }
-
 }
-/* inicio clientes bootstrap */
 
+/* inicio clientes bootstrap */
 .container-fluid {
     display: flex;
     justify-content: space-around;
 }
+
 .container-fluid button {
     background-color: #A76F6F;
     border-radius: .75rem;
-    
 }
+
 .container-fluid button a {
     color: white;
     text-decoration: none;
     font-size: 1.25rem;
-    
 }
+
 .container-fluid img {
-    padding:.625rem;
+    padding: .625rem;
 }
-.tituloClientes{
+
+.container-fluid nav a {
+    color: white;
+}
+
+.tituloClientes {
     text-align: center;
 }
-
-
-
-    
-        
-    
-
-
-
-    
-
-    
-
-   
-
-
-
-
-
-
-
-
-
-    
-   
-    
-
-
-
-    
-        
-    
-
-    
-        
