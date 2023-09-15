@@ -1,0 +1,56 @@
+.logonosotros {
+    display: flex;
+    justify-content: center;
+    padding-top: .3125rem;
+}
+.navbarnosotros {
+    background-color: #162938;
+    background-image: linear-gradient(180deg, #162938 0%, #183c64 32%, #15373f 49%, #000e2d 100%);
+    padding: 1.25rem;
+    @include flex (row, center);
+    li {
+        list-style-type: none;
+        a {
+            padding: 1.25rem;
+            text-decoration: none;
+            color: $color-fuentes;
+            &:hover{ color: #A76F6F;}
+        }    
+    }
+}
+.sectionprincipalnosotros {
+    background-color: #121e27;
+    img {
+        width: 15.625rem;
+        height: 15.625rem;
+        border-radius: 100%;
+        background-color: black; }
+        @include grid ( 40% 60%, "item1n item2n"
+        "item1n item3n" );
+        
+   
+    .item1n {
+        display: flex;
+        justify-content: center;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-left: 3.75rem;
+        grid-area: item1n;
+    }
+    
+    .item2n {
+        padding: .9375rem;
+        grid-area: item2n;
+        font-size: 2.5rem;
+        color: $color-fuentes;
+    
+    }
+    
+    
+    .item3n {
+        font-size: .9375rem;
+        padding-right: .3125rem;
+        grid-area: item3n;
+        color: $color-fuentes;
+    }
+}

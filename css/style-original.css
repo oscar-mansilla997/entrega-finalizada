@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu:ital@1&display=swap');
+
+/* 
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+*/
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+.sectionnavindex {
+    background-color: #162938;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+body {
+    background-color: #162938;
+    font-family: 'Raleway', sans-serif;
+    margin: 0%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar li a {
+    padding: 1.25rem;
+    text-decoration: none;
+    color: white;
+}
+
+.sectionindexprimaria {
+    background-image: url(https://images.unsplash.com/photo-1562740672-22db5c969f04?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Mzc0NDd8MHwxfHNlYXJjaHw4MXx8dGllbmRhJTIwcm9wYXxlbnwwfHx8fDE2OTE0MzExMzJ8MA&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    width: 100%;
+    height: 43.75rem;
+}
+
+.sectionindexprimaria div h1 {
+    font-size: 6.25rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.sectionindexprimaria button {
+    background-color: #A76F6F;
+    border-radius: 1.25rem;
+    padding: .625rem 1.875rem;
+}
+
+.sectionindexprimaria button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 3.125rem;
+    padding: .625rem;
+}
+
+.tituloyboton {
+    width: 50%;
+    margin-left: 4.375rem;
+    padding-top: 6.25rem;
+}
+
+.sectionindexsecundaria {
+    width: 100%;
+    height: auto;
+    background-color: #12191c;
+}
+
+.sectionindexsecundaria div h2 {
+    font-size: 1.875rem;
+    color: white;
+}
+
+.cardinfo img {
+    width: 18.75rem;
+    height: 31.25rem;
+    background-color: #243238;
+    padding: .625rem;
+    border-radius: 3.125rem 0rem;
+    border: .3125rem solid rgba(0, 0, 0, 0.552);
+}
+
+.conteinerinfo {
+    width: 100%;
+    height: auto;
+}
+
+.cardinfo {
+    padding: 1.25rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.cardinfo h2 {
+    text-align: center;
+}
+
+.sectionindexterciaria {
+    background-color: #213741;
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, auto);
+    justify-content: center;
+}
+
+.sectionindexterciaria button {
+    background-color: #A76F6F;
+    border-radius: 1.25rem;
+    grid-column: 2 /3;
+    grid-row: 3 /4;
+    width: 6.25rem;
+    height: 3.125rem;
+    justify-self: center;
+}
+
+.sectionindexterciaria button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.sectionindexterciaria div {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    padding: 3.125rem;
+    width: 90%;
+}
+
+.sectionindexterciaria h3 {
+    font-size: 5rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-content: center;
+    padding-top: 3.125rem;
+}
+
+.sectionindexterciaria p {
+    grid-column: 2 /3;
+    grid-row: 2 /3;
+    font-size: 1.25rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+}
+
+.wsp {
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.25rem;
+}
+
+/* inicio html tienda */
+.sectionprincipaltienda {
+    background-color: #435B66;
+}
+
+.sectionprincipaltienda h1 {
+    color: white;
+}
+
+.sectionprincipaltienda img {
+    width: 100%;
+    height: 75%;
+}
+
+.sectionprincipaltienda button {
+    background-color: #A76F6F;
+    border-radius: 1.25rem;
+}
+
+.sectionprincipaltienda button a {
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.sectionprincipaltienda div {
+    color: white;
+    width: 50%;
+    height: auto;
+    padding: .625rem;
+    border: .1875rem solid rgba(255, 255, 255, 0.995);
+    margin: .3125rem;
+}
+
+.navbartienda {
+    display: flex;
+    flex-direction: row;
+    padding: 1.25rem;
+    justify-content: center;
+}
+
+.navbartienda li a {
+    color: white;
+    text-decoration: none;
+    gap: 1.25rem;
+    padding: 1.25rem;
+}
+
+.logoTienda {
+    display: flex;
+    justify-content: center;
+}
+
+.cardstienda {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+}
+
+.titulotienda {
+    grid-column: 1 /3;
+    grid-row: 1 /2;
+    text-align: center;
+    padding: .625rem;
+    font-size: 1.875rem;
+}
+
+.camperabomber {
+    grid-column: 1 /2;
+    grid-row: 2 /3;
+    padding: .625rem;
+}
+
+.buzoblanco {
+    grid-column: 1 /2;
+    grid-row: 3 /4;
+    padding: .625rem;
+}
+
+.buzonegro {
+
+    grid-column: 2 /3;
+    grid-row: 2 /3;
+    padding: .625rem;
+}
+
+.remerablanca {
+    grid-column: 2 /3;
+    grid-row: 3 /4;
+    padding: .625rem;
+}
+
+.buttonfootertienda {
+    background-color: #A76F6F;
+}
+
+.buttonFooterTienda a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.875rem;
+}
+
+/* inicio html unite */
+.Sectionuniteprincipal div {
+    color: white;
+}
+
+.Sectionunitesecundaria {
+    color: white;
+}
+
+.Sectionunitesecundaria button {
+    background-color: #A76F6F;
+}
+
+.Sectionunitesecundaria a {
+    color: white;
+    text-decoration: none;
+}
+
+.logounite {
+    display: flex;
+    justify-content: center;
+}
+
+.navbarunite {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbarunite li a {
+    padding: 1.25rem;
+    text-decoration: none;
+    color: white;
+}
+
+.itempromos {
+    padding: .625rem;
+    font-size: 1.875rem;
+    padding-left: .9375rem;
+}
+
+.Sectionuniteprincipal div h1 {
+    font-size: 3.75rem;
+    padding-left: .9375rem;
+}
+
+.formunite {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1, 60%;
+    grid-template-rows: auto;
+    justify-content: center;
+    padding: 1.25rem;
+    grid-template-areas:
+
+        "item1"
+        "item2"
+        "item3";
+    font-size: 40px;
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.buttonunite {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem;
+}
+
+.buttonunite a {
+    font-size: 30px;
+}
+
+.footer {
+    color: white;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1, auto;
+    grid-template-rows: 2, auto;
+    grid-template-areas:
+        "item1footer"
+        "item2footer";
+}
+
+.item1footer {
+    grid-area: item1footer;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+.item2footer {
+    grid-area: item2footer;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+/* empieza html showroom */
+main {
+    color: white;
+    background-color: #2D4356;
+}
+
+header {
+    background-color: #2D4356;
+}
+
+.sectionshowroomprincipal div {
+    width: 25rem;
+    height: 37rem;
+    padding: .75rem;
+    border: .1875rem solid rgba(255, 255, 255, 0.995);
+    margin: .3125rem;
+}
+
+.sectionshowroomprincipal img {
+    width: 100%;
+}
+
+.sectionshowroomprincipal div a {
+    color: #A76F6F;
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionshowroomprincipal {
+    gap: .3125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logoshowroom {
+    display: flex;
+    justify-content: center;
+}
+
+.navbarshowroom {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbarshowroom li a {
+    padding: 1.25rem;
+    text-decoration: none;
+    color: white;
+}
+
+.tituloshowroom {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem;
+}
+
+/* empieza html nosotros */
+.sectionprincipalnosotros div img {
+    width: 15.625rem;
+    height: 15.625rem;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.logonosotros {
+    display: flex;
+    justify-content: center;
+}
+
+.navbarnosotros {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbarnosotros li a {
+    padding: 1.25rem;
+    text-decoration: none;
+    color: white;
+}
+
+.sectionprincipalnosotros {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 40% 60%;
+    grid-template-areas:
+        "item1n item2n"
+        "item1n item3n";
+}
+
+.item1n {
+    grid-area: item1n;
+}
+
+.item2n {
+    grid-area: item2n;
+}
+
+.item3n {
+    grid-area: item3n;
+}
+
+.item1n {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 3.75rem;
+}
+
+.item2n {
+    padding: .9375rem;
+}
+
+.item3n {
+    font-size: .75rem;
+}
+
+.sectionprincipalnosotros div h1 {
+    font-size: 2.5rem;
+}
+
+/* inicio responsive */
+@media (max-width: 1030px) {
+    .sectionindexterciaria div img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 990px) {
+    .sectionindexterciaria div img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sectionindexterciaria p {
+        font-size: .9375rem;
+        padding: .9375rem;
+    }
+
+    /* responsive tienda */
+    .cardstienda {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 690px) {
+    .navbar {
+        padding: 1.875rem 0rem;
+    }
+
+    .navbar li a {
+        padding: .3125rem;
+    }
+
+    .cardinfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectionindexterciaria {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1.875rem;
+
+    }
+
+    .sectionindexterciaria div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sectionindexprimaria {
+        width: 100%;
+        height: 25rem;
+    }
+
+    .sectionindexprimaria div h1 {
+        font-size: 3.125rem;
+    }
+
+    .sectionindexterciaria button {
+        align-self: center;
+    }
+
+    .sectionindexterciaria h3 {
+        font-size: 6.25rem;
+    }
+
+    .navegadortienda {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+    .sectionindexterciaria div {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 353px) {
+    .navegador {
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        gap: 0%;
+    }
+    
+    .sectionindexterciaria div {
+        padding: 10%;
+       
+        
+    }
+
+    .sectionindexterciaria h3 {
+        font-size: 1.875rem;
+    }
+}
+
+/* inicio clientes bootstrap */
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-fluid button {
+    background-color: #A76F6F;
+    border-radius: .75rem;
+}
+
+.container-fluid button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.container-fluid img {
+    padding: .625rem;
+}
+
+.container-fluid nav a {
+    color: white;
+}
+
+.tituloClientes {
+    text-align: center;
+}

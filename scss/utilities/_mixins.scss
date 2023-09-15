@@ -1,0 +1,10 @@
+@mixin flex ($direction, $justify) {
+        display: flex;
+        flex-direction: $direction;
+        justify-content: $justify; 
+}
+@mixin grid ($col, $areas) {
+    display: grid;
+    grid-template-columns: $col;
+    grid-template-areas: $areas;
+}

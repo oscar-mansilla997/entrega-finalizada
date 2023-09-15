@@ -1,0 +1,25 @@
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+    button {
+        background-color: #A76F6F;
+        border-radius: .75rem;
+        width: 30px;
+        height: 2.5rem;
+        a {
+            color:$color-fuentes;
+            text-decoration: none;
+            font-size: 1.25rem;
+        }
+    }
+    img {
+        padding: .625rem;
+    }
+    nav a {
+        color: $color-fuentes;
+    }
+    .tituloClientes {
+        text-align: center;
+    }
+    
+}
