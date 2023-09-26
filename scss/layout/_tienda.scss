@@ -10,19 +10,24 @@
     }
 
     .navbartienda {
-        @include flex (row, center);
         padding: 1.25rem;
+        @include flex (row, center);
+        width: 100%;
+        height: auto;
+        
+
         
 
         li {
             list-style-type: none;
 
             a {
-                color: $color-fuentes;
+                padding: .625rem;
+                
                 text-decoration: none;
-                gap: 1.25rem;
-                padding: 1.25rem;
+                color: $color-fuentes;               
                 &:hover{ color: #A76F6F;}
+                
             
             }
         }

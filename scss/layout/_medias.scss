@@ -85,6 +85,7 @@
             
         }
        }
+      
     }
     
     .sectionprincipaltienda {
@@ -96,21 +97,92 @@
         align-items: center;
         }
     }
+    .sectionshowroomprincipal {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        
+
+    }
+    .sectionprincipalnosotros{
+        display: flex;
+        flex-direction: column;    
+        width: 100%;
+        height: auto;
+        .item1n{
+            width: 18.75rem;
+            height: 28.125rem;
+            display: flex;
+            flex-direction: row;
+            align-self: center;
+            
+            
+            
+        }
+        .item2n{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 0%;
+        }
+        .item3n{
+            text-align: center;
+            
+        }
+}
+    
+
   }
   @media (max-width: 545px) {
     .navegadortienda {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        gap: 1.25rem;
+       
     }
+    .navbarunite{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 1.25rem;
+       
+    }
+    .navegador {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.25rem;
+       
+        
+         }
+         .navbarshowroom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.25rem;
+            
+        }
+        .navbarnosotros{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.25rem;
+        }     
+        
+       
+           
+            
+           
   }
   
 
 
 @media (max-width: 467px) {
-    .navegador {
-        display: flex;
-        flex-direction: column;
-        gap: 0rem;  }
+    
     .sectionindexprimaria {
         width: 100%;
         height: auto;
@@ -155,6 +227,22 @@
              
         }
     }
+    .Sectionuniteprincipal{
+        div {  
+        h1 {
+            font-size: 1.5625rem;
+        }
+        .itempromos {
+           font-size: .9375rem; 
+        }
+    }
+    }
+    .Sectionunitesecundaria{
+        .formunite {
+            font-size: 1.25rem;
+        }
+    }
+    
     }
        @media (max-width: 370px) {
         .sectionindexprimaria{
@@ -175,7 +263,6 @@
 
 
    
-
 
 
 

@@ -1,25 +1,63 @@
 .container-fluid {
-    display: flex;
-    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    
+    
+    
+    
+    
+
     button {
         background-color: #A76F6F;
-        border-radius: .75rem;
-        width: 30px;
-        height: 2.5rem;
-        a {
-            color:$color-fuentes;
+        border-radius: 1.25rem;
+        width: auto;
+        height: auto;
+         
+       
+        
+
+        .aqui {
+            color: $color-fuentes;
             text-decoration: none;
             font-size: 1.25rem;
         }
     }
+
     img {
+       
         padding: .625rem;
+        width: auto;
+        height: auto;
+        
+       
+        
     }
-    nav a {
-        color: $color-fuentes;
+
+    nav {
+        width: 100%;
+        height: auto;
+        
+        
+        a {
+            color: $color-fuentes;
+            padding: .625rem;
+            text-decoration: none;
+            &:hover{ color: #A76F6F;}
+            text-align: center;
+           
+        }
     }
-    .tituloClientes {
-        text-align: center;
-    }
+
     
+
+}
+main {
+    .tituloclientes{
+        h1{
+            text-align: center;
+            color: $color-fuentes;
+
+        }
+    }
 }

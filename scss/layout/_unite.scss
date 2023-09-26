@@ -7,24 +7,24 @@
 .navbarunite {
     background-color: #162938;
     background-image: linear-gradient(180deg, #162938 0%, #183c64 32%, #15373f 49%, #000e2d 100%);
-    padding: 1.25rem;
     @include flex (row, center);
+    padding: 1.25rem;
     li {
         list-style-type: none;
 
         a {
-            padding: 1.25rem;
+            padding: .625rem;
             text-decoration: none;
             color: $color-fuentes;
-            list-style: none;
-            gap: 1.25rem;
+            list-style: none;            
             &:hover{ color: #A76F6F;}
         }
 
 
     }
 }
-.Sectionuniteprincipal div {
+.sectionuniteprincipal{ 
+     div {
     -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000)infinite both;
                 animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000)infinite both;
     color: white;
@@ -40,19 +40,25 @@
         padding-left: 1.875rem;
     }
 }
-.Sectionunitesecundaria {
+}
+.sectionunitesecundaria {
     color: $color-fuentes;
+    width: 100%;
+    height: auto;   
     button {
         background-color: #A76F6F;
+        border-radius: 1.25rem;
         a {
             color: $color-fuentes;
             text-decoration: none;
             &:hover{ color: #12191c;}
+            padding: .625rem;
         }
     }
     .formunite {
         display: grid;
         width: 100%;
+        height: auto;
         grid-template-columns: 1, 60%;
         grid-template-rows: auto;
         justify-content: center;
@@ -80,7 +86,7 @@
     .buttonunite {
         display: flex;
         justify-content: center;
-        padding: 1.25rem;
+        padding: 1.25rem;        
         a {
             font-size: 30px;
         }

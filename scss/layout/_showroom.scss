@@ -13,7 +13,7 @@
         list-style-type: none;
         
         a {
-            padding: 1.25rem;
+            padding: .625rem;
             text-decoration: none;
             color: $color-fuentes;
             &:hover{ color: #A76F6F }
@@ -77,12 +77,14 @@
   
 
 .sectionshowroomprincipal {
+    width: 100%;
+    height: auto;
     color: $color-fuentes;
     gap: .3125rem;    
     @include flex (row, center);
     div {
-        width: 25rem;
-        height: 37rem;
+        width: 90%;
+        height: auto;
         padding: .75rem;
         border: .1875rem solid rgba(255, 255, 255, 0.995);
         margin: .3125rem;
